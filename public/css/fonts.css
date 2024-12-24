@@ -1,0 +1,8 @@
+@font-face{
+    font-family: 'Recharge BD';
+    src: url('../fonts/recharge\ bd.otf') format('woff2'),
+         url('../fonts/recharge\ bd.otf') format('woff'),
+         url('../fonts/recharge\ bd.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
