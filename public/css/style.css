@@ -1,5 +1,10 @@
 header{
     background-color: #000000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 body{
     background-color: #ffffff;
@@ -12,6 +17,12 @@ p{
     display: flex;
     align-items: center;
     font-family: 'Recharge', sans-serif;
+}
+.header-productos{
+    background-color: #921913;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 footer{
     background-color: #000000;
@@ -138,6 +149,23 @@ body, html{
     font-size: 14px;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+.btn{
+    color: #fff;
+}
+.btn:hover{
+    color: #921913;
+}
+.btn-productos{
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 1rem;
+    transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    cursor: pointer;
+}
+.btn-productos:hover {
+    transform: scale(1.1);
 }
 .btn-black{
     background-color: #FF5026;
@@ -366,44 +394,38 @@ transition: background-color 0.3s ease;
 .btn-register:hover{
 background-color: #e03e1b;
 }
-
-body {
+body{
     background-color: #c5c5c5;
     font-family: 'Arial', sans-serif;
 }
-
-h2 {
+h2{
     color: #343a40;
     font-weight: bold;
     margin-top: 20px;
 }
-
-.product-card-modern {
+.product-card-modern{
     background: white;
     border-radius: 8px;
     padding: 15px;
     text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    width: 100%; /* Asegura que ocupe el espacio del contenedor */
-    max-width: 280px; /* Limita el ancho máximo */
-    height: 350px; /* Altura fija */
+    width: 100%;
+    max-width: 280px;
+    height: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Espacia los elementos dentro */
+    justify-content: space-between;
 }
-
-.product-card-modern:hover {
+.product-card-modern:hover{
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
-.product-card-modern img {
+.product-card-modern img{
     max-height: 120px;
     object-fit: contain;
     margin-bottom: 10px;
 }
-
-.price {
+.price{
     color: #28a745;
     font-weight: bold;
     font-size: 1rem;
