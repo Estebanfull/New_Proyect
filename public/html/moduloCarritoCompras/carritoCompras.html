@@ -36,10 +36,10 @@
                     <i class="bi bi-shop fs-3 icon-hover"></i>
                 </button>
 
-                <button class="btn" id="btnCarritoCompras" type="button"  title="Carrito de compras">
+                <button class="btn" id="btnCarritoCompras" type="button" data-bs-toggle="modal" data-bs-target="#cartModal" title="Carrito de compras">
                     <i class="bi bi-cart fs-3"></i>
                 </button>
-
+                            
                 <button class="btn" id="btnIngreso" type="button" aria-expanded="false" title="Ingreso">
                     <i class="bi bi-person fs-3"></i>
                 </button>
@@ -82,29 +82,19 @@
             </button>
 
         </div>
+     
 
     </header>
-
-    <div class="container py-3">
-
-        <div class="row justify-content-center">
-
-            <h2 class="text-center mb-5">Zumo</h2>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 mb-4 d-flex justify-content-center">
-
-                <div class="product-card-modern">
-                    <img src="../../img/Zumo De Uva.jpg" alt="Zumo Integral de Uva" class="img-fluid rounded">
-                    <h5 class="mt-3">Zumo Integral de Uva</h5>
-                    <p>Presentación: Caja x 24 unds<br>Botella: 250 ml</p>
-                    <p class="price">Precio Caja: $179.990<br>Precio Detal: $10.000</p>
-                </div>
-
+   
+    <main class="position-relative d-flex justify-content-center align-items-center" style="height: 80vh;">
+        <div class="cart-container position-absolute">
+            <div class="cart-content text-center">
+                <i class="bi bi-cart fs-1 text-white"></i>
+                <h2 class="text-white mt-3">Tu carrito está vacío</h2>
+                <p class="text-white">Agrega productos para verlos aquí</p>
             </div>
-
         </div>
-        
-    </div>    
+    </main>
 
     <footer>
 
