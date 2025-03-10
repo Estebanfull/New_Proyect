@@ -7,6 +7,7 @@ var botonVinos = document.getElementById("btnVinos");
 var botonCremasWhisky = document.getElementById("btnCremasWhisky");
 var botonMistelas = document.getElementById("btnMistelas");
 var botonZumo = document.getElementById("btnZumo");
+var botonAccesorios=document.getElementById("btnAccesorios");
 var botonTiendasFisicas = document.getElementById("btnTiendasFisicas");
 var botonCarritoCompras = document.getElementById("btnCarritoCompras");
 var botonIngreso = document.getElementById("btnIngreso");
@@ -69,4 +70,8 @@ botonMistelas.addEventListener("click", () =>
 
 botonZumo.addEventListener("click", () =>
   redirigir("../moduloInicio/zumo.html")
+);
+
+botonAccesorios.addEventListener("click", () =>
+  redirigir("../moduloInicio/accesorios.html")
 );
